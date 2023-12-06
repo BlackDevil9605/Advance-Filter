@@ -14,6 +14,4 @@ RUN mkdir /VJ-FILTER-BOT
 WORKDIR /VJ-FILTER-BOT
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
-RUN python -m asyncio
-RUN pip install --upgrade asyncio
-Exposs 3306
+
